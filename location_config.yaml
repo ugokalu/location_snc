@@ -1,0 +1,17 @@
+---
+- name: MY CONFIG
+  hosts: routers
+  gather_facts: true
+  connection: local
+
+  tasks:
+    - name: show run-config
+      ios_command:
+       commands:
+       - show ip interface brief
+       - show ip route
+      register: output
+    - name: print output
+      debug:
+        var: output.stdout_lines
+  
