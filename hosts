@@ -7,7 +7,7 @@
 citysouth ansible_host=192.168.122.100
 
 [all:vars]
-ansible_user=citysouth
+ansible_user=cisco
 ansible_password=cisco123
 ansible_network_os=cisco.ios.ios
 
