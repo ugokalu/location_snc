@@ -1,5 +1,5 @@
 ---
-- name: MY CMP7221 CONFIG
+- name: MY CMP7221 COURSEWORK CONFIG
   hosts: routers
   gather_facts: true
   connection: local
