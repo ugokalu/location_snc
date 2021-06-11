@@ -9,7 +9,7 @@
       ios_command:
        commands:
        - show ip interface brief
-       - show ip route
+       - 
       register: output
     - name: print output
       debug:
