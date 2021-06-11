@@ -4,7 +4,9 @@
 
 
 [routers]
-citysouth ansible_host=192.168.122.100
+citysouth   ansible_host=192.168.122.100
+city_north  ansible_host=192.168.122.101
+city_center ansible_host=192.168.122.103
 
 [all:vars]
 ansible_user=cisco

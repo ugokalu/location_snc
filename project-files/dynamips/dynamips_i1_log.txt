@@ -1,18 +1,18 @@
-Jun 10 12:38:29.710 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
-Jun 10 12:38:29.710 HYPERVISOR: Started on IP = localhost, TCP port = 37435.
-Jun 10 12:38:29.722 HYPERVISOR: exec_cmd: hypervisor version 
-Jun 10 12:38:29.722 HYPERVISOR: exec_cmd: hypervisor working_dir /home/devasc/Desktop/Ugokalu/location_snc/project-files/dynamips 
-Jun 10 12:38:29.722 GENERAL: working_dir=/home/devasc/Desktop/Ugokalu/location_snc/project-files/dynamips
-Jun 10 12:38:29.722 HYPERVISOR: exec_cmd: ethsw create Switch1 
-Jun 10 12:38:29.765 HYPERVISOR: exec_cmd: nio create_udp udp-b71cec3a-9f57-4031-8981-f9f54ba7b92f 10001 127.0.0.1 10000 
-Jun 10 12:38:29.765 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-b71cec3a-9f57-4031-8981-f9f54ba7b92f 
-Jun 10 12:38:29.779 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b71cec3a-9f57-4031-8981-f9f54ba7b92f 1 
-Jun 10 12:38:29.793 HYPERVISOR: exec_cmd: nio create_udp udp-a3389380-9a2b-4b5a-91f1-0ab4771b2746 10002 127.0.0.1 10003 
-Jun 10 12:38:29.793 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-a3389380-9a2b-4b5a-91f1-0ab4771b2746 
-Jun 10 12:38:29.799 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-a3389380-9a2b-4b5a-91f1-0ab4771b2746 1 
-Jun 10 12:38:29.822 HYPERVISOR: exec_cmd: nio create_udp udp-b77349c1-3b01-4164-aaff-82d965e3cd57 10004 127.0.0.1 10005 
-Jun 10 12:38:29.822 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-b77349c1-3b01-4164-aaff-82d965e3cd57 
-Jun 10 12:38:29.841 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b77349c1-3b01-4164-aaff-82d965e3cd57 1 
-Jun 10 12:38:29.868 HYPERVISOR: exec_cmd: nio create_udp udp-08af2886-87f7-4209-93cb-b7fa2300456c 10006 127.0.0.1 10007 
-Jun 10 12:38:29.868 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-08af2886-87f7-4209-93cb-b7fa2300456c 
-Jun 10 12:38:29.873 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-08af2886-87f7-4209-93cb-b7fa2300456c 1 
+Jun 11 11:04:43.586 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 11 11:04:43.587 HYPERVISOR: Started on IP = localhost, TCP port = 42651.
+Jun 11 11:04:43.600 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 11 11:04:43.600 HYPERVISOR: exec_cmd: hypervisor working_dir /home/devasc/Desktop/Ugokalu/location_snc/project-files/dynamips 
+Jun 11 11:04:43.600 GENERAL: working_dir=/home/devasc/Desktop/Ugokalu/location_snc/project-files/dynamips
+Jun 11 11:04:43.600 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jun 11 11:04:43.683 HYPERVISOR: exec_cmd: nio create_udp udp-ec90f1fa-da9e-4f92-8eee-54c577cc72d3 10001 127.0.0.1 10000 
+Jun 11 11:04:43.684 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-ec90f1fa-da9e-4f92-8eee-54c577cc72d3 
+Jun 11 11:04:43.700 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ec90f1fa-da9e-4f92-8eee-54c577cc72d3 1 
+Jun 11 11:04:43.823 HYPERVISOR: exec_cmd: nio create_udp udp-0d9652e9-542a-4ce3-a4e3-9ec7c12fd98a 10002 127.0.0.1 10003 
+Jun 11 11:04:43.823 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-0d9652e9-542a-4ce3-a4e3-9ec7c12fd98a 
+Jun 11 11:04:43.827 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-0d9652e9-542a-4ce3-a4e3-9ec7c12fd98a 1 
+Jun 11 11:04:43.905 HYPERVISOR: exec_cmd: nio create_udp udp-7f62fb2c-4bd9-4581-97bc-1079ab1c0c2a 10004 127.0.0.1 10005 
+Jun 11 11:04:43.906 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7f62fb2c-4bd9-4581-97bc-1079ab1c0c2a 
+Jun 11 11:04:43.928 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-7f62fb2c-4bd9-4581-97bc-1079ab1c0c2a 1 
+Jun 11 11:04:44.030 HYPERVISOR: exec_cmd: nio create_udp udp-b462ab58-c6a5-4395-b641-6341123d2370 10006 127.0.0.1 10007 
+Jun 11 11:04:44.030 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-b462ab58-c6a5-4395-b641-6341123d2370 
+Jun 11 11:04:44.052 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b462ab58-c6a5-4395-b641-6341123d2370 1 
